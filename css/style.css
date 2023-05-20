@@ -1,0 +1,130 @@
+#serach_filter{
+    background-color: #0000;
+    width:50vh;
+    border: 1px solid #515963;
+    padding-left: 25px;
+    border-radius: 5px;
+}
+.navbar-nav .nav-item a{
+    color:#fff;
+}
+.logo{
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+.dropdown-menu li .plus-icon{
+    color:#0000;
+}
+.full_img{
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+.nav{
+    display: flex;
+    justify-content: center;
+}
+
+.nav2{
+    display: flex;
+    justify-content: space-between;
+}
+.big-profile-img{
+    width: 250px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border: 2px solid #d5dade;
+    
+}
+.name{
+    font-size: large;
+    color: #a7abb0;
+}
+.btn_Edit_Profile{
+    width: 100%;
+    border: 1px solid #d5dade;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+.title_public{
+    display: flex;
+    justify-content: space-between;
+}
+.public{
+    border: 1px solid #e9edf0;
+    width: 13%;
+    text-align: center;
+    color: #a7abb0;
+    font-weight: 500;
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+}
+
+.color_with_p{
+    display: flex;
+}
+.title{
+    text-decoration: none;
+}
+.color{
+    margin-top: 2%;
+    height: 5%;
+    border: 5px solid red;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+.footer{
+    font-size: small;
+}
+.main_footer{
+    display: flex;
+}
+.center_footer{
+display: flex;    justify-content: center;
+margin-left: 8%;
+}
+.copy_Right{
+    color: #a9adb2;
+    margin-left: 10%;
+}
+
+   .btn_Edit{
+    width: 300px;
+    border: 1px solid #d5dade;
+    border-radius: 5px;
+}
+.btn_Dark{
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+}
+.nav-item .nav_Dark{
+    color: #000;
+  }
+
+.dark-mode{
+    background-color: #000;
+    color:white;
+    .nav_Dark{
+        color: #fff;
+    }
+}
