@@ -32,7 +32,6 @@ searchForm.addEventListener("submit", function (event) {
       fetch(`https://api.github.com/users/${searchTerm}/repos`)
         .then((res) => res.json())
         .then((data) => {
-          console.log(data);
           let repoHTML = "";
           for (let index = 0; index < 6; index++) {
             repoHTML += `
@@ -68,7 +67,6 @@ function dark_Mode(){
   let dark = document.body;
   dark.classList.toggle("dark-mode")
   let card1=document.getElementById('black_Container')
-  // card1.style.color="white";
 card1.classList.toggle("dark-mode");
 let black_Mode=document.querySelector('.black_Mode');
 black_Mode.classList.toggle("dark-mode");
@@ -83,15 +81,4 @@ black_Mode5.classList.toggle("dark-mode");
 let black_Mode6=document.querySelector('.black_Mode6');
 black_Mode6.classList.toggle("dark-mode");
 
-// js.classList.toggle("dark-mode")
-// let card2=document.querySelector('.black2');
-// card2.style.color="white";
-// card2.classList.toggle("dark-mode");
-// let card3=document.querySelector('.black3')
-// card3.style.color="white";
-// card3.style.color="black"
-// card3.classList.toggle("dark-mode");
-// let c=document.getElementById('Black');
-
-// c.classList.toggle("dark-mode");
 }
