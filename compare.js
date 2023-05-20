@@ -93,6 +93,11 @@ btn.addEventListener("click", function () {
   winner.appendChild(result);
   winner.appendChild(name_Result);
   document.body.appendChild(winner);
+  confetti({
+    particleCount: 100,
+    spread: 70,
+    origin: { y: 0.6 },
+  });
 });
 function dark_Mode(){
   let dark = document.body;
